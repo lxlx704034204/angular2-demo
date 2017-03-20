@@ -7,7 +7,9 @@ import 'zone.js';
 // core-js 包含 reflect-metadata，如果引入了 core-js，需注释下面 reflect-metadata 的导入。
 import 'reflect-metadata';
 
+// JiT启动模式
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
 import { AppModule } from './app/app.module';
 
 platformBrowserDynamic().bootstrapModule(AppModule);
