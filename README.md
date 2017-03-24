@@ -28,3 +28,6 @@ package.json大致可以看看这个：https://github.com/lizhonghui/blog/issues
 
 ## 2. VSCode编辑插件
 几个字母生成模板有很多这样的插件，在vscode的extension里搜索“angular snippets”，有很多类似的工具，选一个喜欢的即可，且基本都可以自定义snippet。
+
+## 3. 没有NG1基础可以学NG2么？
+没有NG1的基础学NG2完全没问题的，有NG1的基础只是对理解NG2的部分概念有帮助，很多NG1的复杂概念在NG2里已经废弃掉了。
