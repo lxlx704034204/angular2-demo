@@ -23,7 +23,7 @@
     "@types/core-js": "0.9.34",
     "ts-loader": "1.0.0",
     "typescript": "2.0.3",
-    "webpack": "1.12.9",
-    "webpack-dev-server": "1.14.0"
+    "webpack": "2.3.2",
+    "webpack-dev-server": "2.4.2"
   }
 }
