@@ -36,3 +36,11 @@ package.json大致可以看看这个：https://github.com/lizhonghui/blog/issues
 
 ### 3. 没有NG1基础可以学NG2么？
 没有NG1的基础学NG2完全没问题的，有NG1的基础只是对理解NG2的部分概念有帮助，很多NG1的复杂概念在NG2里已经废弃掉了。
+
+### 4. 关于Angular-CLI
+本示例并不是用Angular-CLI搭建，而是从最基本的package.json开始搭建。所以不是用`ng serve`启动，启动步骤如下：
+```bash
+npm install
+npm start
+```
+运行完上面两部命令后，若没有报错，打开浏览器访问 `http://localhost:3000` 即可。
