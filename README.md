@@ -13,7 +13,7 @@
 - 打开浏览器访问 http://localhost:3000 
 
 ## 内容
-1. 基于webpack的项目种子搭建
+1. 基于webpack的项目种子搭建（非Angular-CLI，见后面常见问题答复 #4）
 2. 内置指令的使用
 3. 自定义指令的开发与使用
 4. 服务的开发与使用
@@ -38,7 +38,8 @@ package.json大致可以看看这个：https://github.com/lizhonghui/blog/issues
 没有NG1的基础学NG2完全没问题的，有NG1的基础只是对理解NG2的部分概念有帮助，很多NG1的复杂概念在NG2里已经废弃掉了。
 
 ### 4. 关于Angular-CLI
-本示例并不是用Angular-CLI搭建，而是从最基本的package.json开始搭建。所以不是用`ng serve`启动，启动步骤如下：
+本示例并不是用Angular-CLI搭建，而是从最基本的package.json开始搭建，方便从基础讲解，实际开发还是推荐使用Angular-CLI。
+所以启动应用并不是用`ng serve`，启动步骤如下：
 ```bash
 npm install
 npm start
