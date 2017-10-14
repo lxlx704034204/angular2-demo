@@ -9,5 +9,6 @@
   </p>
   <p highlight *ngIf="isShowMore">Angular 2 是 Google 推出的新一代的Web开发框架</p><!--运用自定义的 高亮 指令：highlight-->
   <my-child [message]="msgToChild" (outer)="receive($event)"></my-child><!--其实这里更应该吧msgToChild 换为parentSendMsg-->
+    <!--                                            $event  就是消息体本身-->
   <p>从子组件获得的消息：{{ msgFromChild || '暂无' }}</p>
 </div>
