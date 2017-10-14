@@ -1,8 +1,8 @@
 module.exports = {
-  entry: './main.ts',
+  entry: './main.ts', //主入口文件
 
   output: {
-    filename: './bundle.js'
+    filename: './bundle.js' 
   },
 
   resolve: {
