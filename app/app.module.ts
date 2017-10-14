@@ -1,6 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';// 提供eg：(ngModel) 双向绑定 等等 内置指令
 
 import { AppComponent }  from './app.component';
 import { ChildComponent } from './child.component';
