@@ -7,10 +7,10 @@ import { ChildComponent } from './child.component';
 import { HighlightDirective } from './highlight.directive';          // 为项目 导入 自定义的 高亮 指令1
 import { LoggerService } from './logger.service';
 
-@NgModule({
+@NgModule({ //项目 root module !!!
   imports: [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, ChildComponent, HighlightDirective ],// 为项目 导入 自定义的 高亮 指令2
-  providers: [ LoggerService ],
+  providers: [ LoggerService ],           //注入 服务类
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
