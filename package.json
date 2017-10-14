@@ -1,10 +1,10 @@
-{
+{ //没有安装an.CLI的话，就是用.json文件来配置  webpack-dev-server工具 打包，它可以在本地搭建一个临时的http server
   "name": "angular2-demo",
   "discription": "A simple demo for angular 2",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack-dev-server --inline --colors --progress --port 3000"
-  },
+  },          //启动cmd: npm start , 启动后自动编译该package.json代码，成功后访问localhost：3000
   "dependencies": {
     "@angular/common": "2.1.1",
     "@angular/compiler": "2.1.1",
