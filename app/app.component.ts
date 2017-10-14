@@ -16,7 +16,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.greeting = 'Angular 2';
-    this.msgToChild = 'message from parent';
+    this.msgToChild = 'message from parent'; // 其实这里更应该吧msgToChild 换为parentSendMsg
     this.logger.debug('应用已初始化');
   }
 
